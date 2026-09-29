@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    color: #222;
+}
+
+header {
+    background: #4338ca;
+    color: white;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header h2 {
+    font-size: 26px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ddd6fe;
+}
+
+.hero {
+    background: linear-gradient(135deg, #4338ca, #9333ea);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+button {
+    background: #4338ca;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.hero button {
+    background: white;
+    color: #4338ca;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.container {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.container h2 {
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000010;
+}
+
+.card h3 {
+    font-size: 23px;
+    color: #4338ca;
+    margin-bottom: 12px;
+}
+
+.card p {
+    line-height: 1.7;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.comment {
+    background: #f4f4f8;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+footer {
+    background: #1e1b4b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 8px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}
